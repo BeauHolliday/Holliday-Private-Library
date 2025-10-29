@@ -1,1 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Holliday Private Library</title>
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/themes.css">
+</head>
+<body data-theme="dark">
+  <header class="site-banner">
+    <div class="brand">Holliday Private Library</div>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="latest.html">Latest</a>
+      <a href="reader.html">Reader</a>
+      <button id="theme-toggle" title="Toggle theme">Theme</button>
+      <button id="notif-btn" title="Notifications">🔔<span id="notif-badge" class="badge hidden">•</span></button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="intro">
+      <h1>Welcome</h1>
+      <div id="updates" class="card">Loading updates...</div>
+    </section>
+
+    <aside class="latest-widget card">
+      <h2>Latest Additions</h2>
+      <ul id="latest-list">Loading...</ul>
+    </aside>
+  </main>
+
+  <script src="assets/js/md-lite.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
 
