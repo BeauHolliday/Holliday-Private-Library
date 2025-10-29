@@ -1,1 +1,27 @@
 
+{
+  "posts": [
+    {
+      "slug": "sample-poem",
+      "title": "Sample Poem",
+      "date": "2025-10-01",
+      "tags": ["poetry","mood"],
+      "excerpt": "A short sample poem to show formatting.",
+      "path": "content/posts/sample-poem.md",
+      "adult": false,
+      "locked": false,
+      "encrypted": false
+    },
+    {
+      "slug": "sample-exclusive",
+      "title": "Exclusive Piece",
+      "date": "2025-10-20",
+      "tags": ["exclusive","fantasy"],
+      "excerpt": "A short teaser for an exclusive piece.",
+      "path": "content/posts/sample-exclusive.md",
+      "adult": true,
+      "locked": true,
+      "encrypted": false
+    }
+  ]
+}
