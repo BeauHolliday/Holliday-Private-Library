@@ -1,1 +1,4 @@
+body[data-theme="dark"] { background:var(--bg-dark); color:var(--text); }
+body[data-theme="light"] { background:var(--bg-light); color:var(--text-dark); --panel:var(--panel-light); --accent:var(--accent-light); }
+body[data-theme="high-contrast"] { background:#000; color:#fff; --panel:#000; --accent:#ff0; }
 
