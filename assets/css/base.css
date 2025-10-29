@@ -1,1 +1,25 @@
+:root {
+  --bg-dark:#0b0b0d; --panel:#111; --muted:#9aa0a6; --accent:#cdb374; --text:#e9e6e1;
+  --bg-light:#f6f5f3; --panel-light:#fff; --text-dark:#111; --accent-light:#8b2f2f;
+}
+body { margin:0; font-family: Georgia, "Times New Roman", serif; background:var(--bg-dark); color:var(--text); }
+.site-banner { display:flex; justify-content:space-between; align-items:center; background:linear-gradient(90deg,rgba(0,0,0,.4),rgba(0,0,0,.2)); padding:12px 18px; position:sticky; top:0; z-index:10; }
+.brand { font-weight:700; letter-spacing:0.6px; color:var(--accent); font-size:18px; }
+.main-nav a, .main-nav button { color:var(--text); margin-left:12px; background:none; border:none; cursor:pointer; font:inherit; }
+.container { display:flex; gap:20px; padding:24px; max-width:1100px; margin:0 auto; }
+.intro { flex:2; }
+.latest-widget { width:320px; flex-shrink:0; }
+.card { background:var(--panel); padding:16px; border-radius:8px; box-shadow:0 4px 18px rgba(0,0,0,.6); }
+.badge { background:var(--accent); color:#111; padding:2px 6px; border-radius:999px; font-size:12px; margin-left:6px; }
+.hidden { display:none; }
+.cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:16px; margin-top:12px; }
+.card-item { background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent); padding:14px; border-radius:8px; }
+.card-item h3{ margin:0 0 6px 0; }
+.tag { font-size:12px; padding:4px 6px; border-radius:6px; margin-right:6px; background:rgba(255,255,255,0.03); }
+.reader { display:flex; gap:18px; padding:24px; }
+.reader-article { flex:1; background:var(--panel); padding:28px; border-radius:8px; line-height:1.6; font-size:18px; max-width:70ch; }
+.reader-actions { width:300px; }
+.overlay { position:fixed; inset:0; background:rgba(0,0,0,0.6); display:flex; align-items:center; justify-content:center; color:var(--text); }
+input, button { font-family:inherit; }
+@media (max-width:880px){ .container{flex-direction:column;} .latest-widget{width:100%} .reader{flex-direction:column;} .reader-actions{width:100%} }
 
